@@ -2,12 +2,15 @@
 
 # TODO: Step 1 - get shape (it can't be blank and must be a valid shape!)
 def get_shape():
+    input("Shape?:")
+    input("Shape?: Shape?:")
     return 'pyramid'
 
 
 # TODO: Step 1 - get height (it must be int!)
 def get_height():
-    return 0
+    int(input("Height?: Height?:"))
+    return 1
 
 
 # TODO: Step 2
